@@ -245,6 +245,11 @@ config FB_LCD_ILI9486S1_MIPI
 	depends on FB_SCX35 || FB_SCX15 || FB_SCX30G
 	default n
 
+config FB_LCD_ST7701_MIPI
+    boolean "support ST7701_MIPI panel"
+    depends on FB_SCX35 || FB_SCX30G
+    default n
+
 config FB_LCD_NT35516_RGB_I2C
 	boolean "support NT35516 rgb (i2c) panel"
 	depends on FB_SC8825 || FB_SCX35
