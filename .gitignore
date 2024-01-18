@@ -58,6 +58,16 @@ modules.builtin
 /compiler
 
 #
+# Out directory
+#
+/out
+
+#
+# Build log from my build script
+#
+logbuild.txt
+
+#
 # git files that we don't want to ignore even it they are dot-files
 #
 !.gitignore
