@@ -51,6 +51,12 @@ modules.builtin
 #
 /debian/
 
+
+#
+# GCC compiler from lineageOS repo https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9
+#
+/compiler
+
 #
 # git files that we don't want to ignore even it they are dot-files
 #
